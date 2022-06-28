@@ -39,8 +39,8 @@ async def send_media_and_reply(bot: Client, user_id: int, file_id: int):
    # await reply_forward(message=sent_message, file_id=file_id)
     #await asyncio.sleep(2)
     #a = await bot.send_media_and_reply
-    await cmd.message.edit(
-                        text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/JAsuranbotsgroup).",
+    await message.reply_text (
+                        text="Your File deleted Soon...So forward different location).",
                         parse_mode="markdown",
                         disable_web_page_preview=True
                     )
