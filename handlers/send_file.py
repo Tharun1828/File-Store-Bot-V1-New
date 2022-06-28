@@ -39,10 +39,6 @@ async def send_media_and_reply(bot: Client, user_id: int, file_id: int):
    # await reply_forward(message=sent_message, file_id=file_id)
     #await asyncio.sleep(2)
     #a = await bot.send_media_and_reply
-    await message.reply_text (
-                        text="Your File deleted Soon...So forward different location).",
-                        parse_mode="markdown",
-                        disable_web_page_preview=True
-                    )
+    await reply_forward(message="Files will deleted Soon")
     await asyncio.sleep(100)
     await sent_message.delete()
