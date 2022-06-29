@@ -39,6 +39,11 @@ async def send_media_and_reply(bot: Client, user_id: int, file_id: int):
    # await reply_forward(message=sent_message, file_id=file_id)
     #await asyncio.sleep(2)
     #a = await bot.send_media_and_reply
-    await reply_forward(message="Files will deleted Soon", file_id=file_id)
+    await reply_forward(message=Message, file_id=int)
+    await message.reply_text(
+            f"**Your File deleted Soon**\n"
+            f"https://t.me/{Config.BOT_USERNAME}?start=JAsuran_{str_to_b64(str(file_id))}\n\n"
+            f"__To Retrive the Stored File, just open the link!__",
+            disable_web_page_preview=True, quote=True)f
     await asyncio.sleep(100)
     await sent_message.delete()
