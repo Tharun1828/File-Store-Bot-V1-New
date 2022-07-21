@@ -50,15 +50,15 @@ async def save_batch_media_in_channel(bot: Client, editable: Message, message_id
                 InlineKeyboardButton("Delete Batch", callback_data="closeMessage")
             ]])
         )
-        share_link = f"https://t.me/{Config.BOT_USERNAME}?start=JAsuran_{str_to_b64(str(SaveMessage.message_id))}"
+        share_link = f"https://telegram.me/{Config.BOT_USERNAME}?start=HMTD-Links_{str_to_b64(str(SaveMessage.message_id))}"
         await editable.edit(
             f"**Video Link:\n\n{share_link}**\n\n"
             f"**Just Click the link to get your Videos**. **",
             parse_mode="Markdown",
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton("Open Link", url=share_link)],
-                 [InlineKeyboardButton("Bots Channel", url="https://t.me/JAsuran123"),
-                  InlineKeyboardButton("Support Group", url="https://t.me/JAsuran123")]]
+                 [InlineKeyboardButton("Bot Channel", url="https://t.me/HMTD_Links"),
+                  InlineKeyboardButton("Discussion Group", url="https://t.me/HMTD_Discussion_Group")]]
             ),
             disable_web_page_preview=True
         )
@@ -90,7 +90,7 @@ async def save_media_in_channel(bot: Client, editable: Message, message: Message
         await forwarded_msg.reply_text(
             f"#PRIVATE_FILE:\n\n[{message.from_user.first_name}](tg://user?id={message.from_user.id}) Got File Link!",
             parse_mode="Markdown", disable_web_page_preview=True)
-        share_link = f"https://t.me/{Config.BOT_USERNAME}?start=JAsuran_{str_to_b64(file_er_id)}"
+        share_link = f"https://telegram.me/{Config.BOT_USERNAME}?start=HMTD-Links_{str_to_b64(file_er_id)}"
         await editable.edit(
             f"**Video Link:\n\n{share_link}**\n\n"
             f"**Just Click the link to get your Videos**. **",
