@@ -1,5 +1,5 @@
-# PyroFilesStoreBot
-This is Telegram Parmanent Files Store Bot by [@AbirHasan2005](https://github.com/AbirHasan2005).
+# HMTD Files Store Bot V4
+This is Telegram Parmanent HMTD Files Store Bot V4 by [@HMTD_Links](https://t.me/HMTD_Links).
 
 * **Language:** [Python3](https://www.python.org)
 * **Library:** [Pyrogram](https://docs.pyrogram.org)
@@ -12,7 +12,7 @@ This is Telegram Parmanent Files Store Bot by [@AbirHasan2005](https://github.co
 - Save Multiple Files in Same Link. (Batch)
 
 ### Demo Bot:
-<a href="https://t.me/MediasStoreBot"><img src="https://img.shields.io/badge/Demo-Telegram%20Bot-blue.svg?logo=telegram"></a>
+<a href="https://t.me/HMTD_Files_Store_V4_Bot"><img src="https://img.shields.io/badge/Demo-Telegram%20Bot-blue.svg?logo=telegram"></a>
 
 ## Configs:
 - `API_ID` - Get this from [@TeleORG_Bot](https://t.me/TeleORG_Bot)
@@ -39,14 +39,14 @@ This is Telegram Parmanent Files Store Bot by [@AbirHasan2005](https://github.co
 	- Put all banned channel IDs & Separate with space.
 
 ### Video Tutorial:
-[![YouTube](https://img.shields.io/badge/YouTube-Video%20Tutorial-red?logo=youtube)](https://youtu.be/hHu2RaePhwI)
+[![Telegram](https://img.shields.io/badge/YouTube-Video%20Tutorial-red?logo=youtube)](https://t.me/HMTD_Links)
 
 ### Deploy Now:
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AsuranJ/PyroFilesStoreBot_New)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/HMTD-Links/File-Store-Bot-V4)
 
 ## Commands:
 ```
-start - start the bot
+start - Start the bot
 clear_batch - Clear User Batch Files
 status - Show number of users in DB [Owner Only]
 broadcast - Broadcast replied message to DB Users [Owner Only]
@@ -60,7 +60,7 @@ banned_users - Get All Banned Users [Owner Only]
 
 ### Follow on:
 <p align="left">
-<a href="https://github.com/AbirHasan2005"><img src="https://img.shields.io/badge/GitHub-Follow%20on%20GitHub-inactive.svg?logo=github"></a>
+<a href="https://github.com/HMTD-Links"><img src="https://img.shields.io/badge/GitHub-Follow%20on%20GitHub-inactive.svg?logo=github"></a>
 </p>
 <p align="left">
 <a href="https://twitter.com/AbirHasan2005"><img src="https://img.shields.io/badge/Twitter-Follow%20on%20Twitter-informational.svg?logo=twitter"></a>
