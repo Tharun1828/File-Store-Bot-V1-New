@@ -48,7 +48,7 @@ Also remember that developer will Delete Adult Contents from Database. So better
 [Donate Now](https://www.paypal.me/KarthiK717) (PayPal)
 """
 	HOME_TEXT = """
-**Hi👋, [{}](tg://user?id={})\n\nThis is Permanent **HMTD Files Store Bot V4**.
+**Hi👋, [{}](tg://user?id={})\n\nThis is Permanent HMTD Files Store Bot V4.
 
-I'm an HMTD Official Files Store Bot V4 Maintained by @HMTD_Links.Send me any File I will Give you a Permanent Sharable Link. Keep me Join to Our Official Channel to Receive Bot & Movies Updates in @HMTD_Links. I have Support Channel Also! Check **About Bot** Button.**
+I'm an HMTD Official Files Store Bot V4 Maintained by @HMTD_Links.Send me any File I will Give you a Permanent Sharable Link. Keep me Join to Our Official Channel to Receive Bot & Movies Updates in @HMTD_Links. I have Support Channel Also! Check "About Bot" Button.**
 """
