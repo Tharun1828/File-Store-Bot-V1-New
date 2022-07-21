@@ -377,7 +377,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 user = await bot.get_chat_member(channel_chat_id, cmd.message.chat.id)
                 if user.status == "kicked":
                     await cmd.message.edit(
-                        text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/JAsuranbotsgroup).",
+                        text="Sorry Sir, You are Banned to use me. Contact my [Discussion Group](https://t.me/HMTD_Discussion_Group).",
                         parse_mode="markdown",
                         disable_web_page_preview=True
                     )
@@ -386,7 +386,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 invite_link = await get_invite_link(channel_chat_id)
                 await cmd.message.edit(
                     text="**You Still Didn't Join ☹️, Please Join Our Updates Channel to use this Bot!**\n\n"
-                         "Due to Overload, Only Channel Subscribers can use the Bot!",
+                         "**You Need to Join My Channel to Use me. Due to Overload, Only Channel Subscribers can use the Bot!**",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
