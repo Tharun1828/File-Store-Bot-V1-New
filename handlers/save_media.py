@@ -50,15 +50,15 @@ async def save_batch_media_in_channel(bot: Client, editable: Message, message_id
                 InlineKeyboardButton("Delete Batch", callback_data="closeMessage")
             ]])
         )
-        share_link = f"https://telegram.me/{Config.BOT_USERNAME}?start=HMTD-Links_{str_to_b64(str(SaveMessage.message_id))}"
+        share_link = f"https://telegram.me/{Config.BOT_USERNAME}?start=SkMedia{str_to_b64(str(SaveMessage.message_id))}"
         await editable.edit(
             f"**File Link:\n\n{share_link}**\n\n"
             f"**Just Click the Link to get your Files**. **",
             parse_mode="Markdown",
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton("Open Link", url=share_link)],
-                 [InlineKeyboardButton("Bot Channel", url="https://t.me/HMTD_Links"),
-                  InlineKeyboardButton("Discussion Group", url="https://t.me/HMTD_Discussion_Group")]]
+                 [InlineKeyboardButton("Bot Channel", url="https://t.me/Sk Network"),
+                  InlineKeyboardButton("Movies", url="https://t.me/Sk_Network_Movies")]]
             ),
             disable_web_page_preview=True
         )
