@@ -97,8 +97,8 @@ async def save_media_in_channel(bot: Client, editable: Message, message: Message
             "Just Click the link to get your file!",
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton("Open Link", url=share_link)],
-                 [InlineKeyboardButton("Bot Channel", url="https://t.me/HMTD_Links"),
-                  InlineKeyboardButton("Discussion Group", url="https://t.me/HMTD_Discussion_Group")]]
+                 [InlineKeyboardButton("Bot Channel", url="https://t.me/Sk_Network"),
+                  InlineKeyboardButton("Discussion Group", url="https://t.me/Sk_Network_Movies")]]
             ),
             disable_web_page_preview=True
         )
