@@ -50,7 +50,7 @@ async def save_batch_media_in_channel(bot: Client, editable: Message, message_id
                 InlineKeyboardButton("Delete Batch", callback_data="closeMessage")
             ]])
         )
-        share_link = f"https://telegram.me/{Config.BOT_USERNAME}?start=SkMedia{str_to_b64(str(SaveMessage.message_id))}"
+        share_link = f"https://telegram.me/{Config.BOT_USERNAME}?start=SkMedia_{str_to_b64(str(SaveMessage.message_id))}"
         await editable.edit(
             f"**File Link:\n\n{share_link}**\n\n"
             f"**Just Click the Link to get your Files**. **",
